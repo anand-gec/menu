@@ -66,4 +66,8 @@ The project uses Go modules and gRPC-Go (`google.golang.org/grpc`). Keep the mod
 
 ## Startup behavior
 
+<<<<<<< HEAD
 The current `orders/main.go` also calls `svc.CreateOrder(context.Background())` during startup. This means the service’s `CreateOrder` method is called when the server launches, in addition to registering the gRPC handler.
+=======
+The current `orders/main.go` also calls `svc.CreateOrder(context.Background())` during startup. This means the service’s `CreateOrder` method is called when the server launches, in addition to registering the gRPC handler.
+>>>>>>> 393262d22e85aff1fb2a7360bcf0b5563b74d3a5
